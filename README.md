@@ -1,4 +1,4 @@
-# covid19-misinfo-sna
+<img width="943" height="334" alt="image" src="https://github.com/user-attachments/assets/4f75c3b5-cfd4-40e0-81da-1b7d5a1a8c74" /># covid19-misinfo-sna
 🧠 COVID-19 Misinformation Network Analysis
 
 Bu proje, COVID-19 ile ilgili Twitter verileri üzerinden yanlış ve doğru bilgi yayılımının sosyal ağ analizini amaçlamaktadır. Heterojen bir ağ yapısı kurulmuş, kullanıcılar, tweetler ve hashtag'ler gibi farklı türde düğümler kullanılmıştır.
@@ -31,19 +31,11 @@ Tweet’ler, daha önce eğitilen bir model ile fake ya da real olarak etiketlen
 
 Bu analizde farklı tipte düğüm ve kenarlar içeren bir ağ kurulmuştur. Aşağıda tanımlanan yapı bu ağın temelini oluşturur:
 
-🔶 DÜĞÜMLER
-Tür	Kaynak Sütun	Açıklama
-Kullanıcı	original_author, user_mentions	Tweet atan ve mentionlanan kişiler
-Tweet	clean_tweet	Her tweet potansiyel düğüm
-Hashtag	hashtags	İçerikte kullanılan hashtag'ler
-Bilgi Türü	pred_label (özellik olarak)	Tweet’in yanlış veya doğru bilgi taşıması
+<img width="943" height="334" alt="image" src="https://github.com/user-attachments/assets/99253059-f8cf-4dbb-aa45-a0ad39daabee" />
+
 🔷 KENARLAR
-Tür	Açıklama
-Kullanıcı → Tweet	Tweet atan kişi ile tweet arasında
-Kullanıcı → Kullanıcı	Mention ilişkisi
-Tweet → Hashtag	Tweet ile hashtag arasındaki bağlantı
-Kullanıcı → Hashtag	Kullanıcının belirli bir hashtagi kullanması
-Tweet → Tweet (opsiyonel)	Benzer içerikli tweet’ler arası içerik benzerliği bağlantısı
+<img width="922" height="409" alt="image" src="https://github.com/user-attachments/assets/01a08768-4335-4af6-8f4e-413dac0ccdc8" />
+
 📊 Yapılabilecek Ağ Analizi Türleri
 1. Ağ Ölçümleri
 Mikro Ölçümler
