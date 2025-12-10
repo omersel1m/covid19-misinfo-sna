@@ -1,4 +1,4 @@
-<img width="943" height="334" alt="image" src="https://github.com/user-attachments/assets/4f75c3b5-cfd4-40e0-81da-1b7d5a1a8c74" /># covid19-misinfo-sna
+
 🧠 COVID-19 Misinformation Network Analysis
 
 Bu proje, COVID-19 ile ilgili Twitter verileri üzerinden yanlış ve doğru bilgi yayılımının sosyal ağ analizini amaçlamaktadır. Heterojen bir ağ yapısı kurulmuş, kullanıcılar, tweetler ve hashtag'ler gibi farklı türde düğümler kullanılmıştır.
